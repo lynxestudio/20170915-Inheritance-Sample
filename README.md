@@ -23,18 +23,28 @@
       <div>
 <IMG src="images/fig2.png">
 </div>
-      <h3>Single Inheritance</h3>
-      <p align="justify">The C# programming language permits a class to extend one other class only. This restriction is called single inheritance. With single inheritance, a class is derived from one base class. C# does not support multiple inheritance.</p>
+<h3>Single Inheritance</h3>
+<p align="justify">The C# programming language permits a class to extend one other class only. This restriction is called single inheritance. With single inheritance, a class is derived from one base class. C# does not support multiple inheritance.</p>
       <p align="justify">
         Once created, each derived class can become the base class for future derived classes. Typically, the derived class contains the behaviors of its base class. Therefore, a derived class is more specific than its base class and represents a more specialized group of objects.
-      </p>
-      <p align="justify">
-        The next image shows the base class Employee and three derived classes: <i>Engineer</i>, <i>Manager</i> and <i>Secretary</i>. The <i>Manager</i> is also the base class from which the derived class <i>Director</i> explicitly inherits.
-      </p>
-      <div><b>Fig 3. An example Inheritance tree.</b></div><br>
-      <div>
+ </p>
+<p align="justify">
+The next image shows the base class Employee and three derived classes: <i>Engineer</i>, <i>Manager</i> and <i>Secretary</i>. The <i>Manager</i> is also the base class from which the derived class <i>Director</i> explicitly inherits.
+ </p>
+ <div><b>Fig 3. An example Inheritance tree.</b></div><br>
+ <div>
 <IMG src="images/fig3.png">
 </div><br>
-      <p align="justify">
-        The <i>Employee</i> class contains three attributes (Name, Salary, and BirthDate), as well as one method (GetDetails). The <i>Manager</i> class inherits all of these members and specifies an additional attribute, department, as well as the <i>GetDetails</i> method. The <i>Director</i> class inherits all of the members of <i>Employee</i> and <i>Manager</i> and specifies a CarAllowance attribute and a new method, IncreaseAllowance.
-      </p>
+<p align="justify">
+The <i>Employee</i> class contains three attributes (Name, Salary, and BirthDate), as well as one method (GetDetails). The <i>Manager</i> class inherits all of these members and specifies an additional attribute, department, as well as the <i>GetDetails</i> method. The <i>Director</i> class inherits all of the members of <i>Employee</i> and <i>Manager</i> and specifies a CarAllowance attribute and a new method, IncreaseAllowance.
+</p>
+ <div><b>Fig 4. The program running and printing the details for an employee.</b></div><br>
+ <div>
+<p>
+<img src="images/fig4.png"/>
+</p>
+ <div><b>Fig 5. Printing the details for a director.</b></div><br>
+ <div>
+<p>
+<img src="images/fig5.png"/>
+</p>
