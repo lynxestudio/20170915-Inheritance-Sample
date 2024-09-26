@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Inheritance", "Samples.Inheritance\Samples.Inheritance.csproj", "{1A1A8F41-60ED-4E4A-9EFF-3B20E00DBD4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A1A8F41-60ED-4E4A-9EFF-3B20E00DBD4B}.Debug|x86.ActiveCfg = Debug|x86
+		{1A1A8F41-60ED-4E4A-9EFF-3B20E00DBD4B}.Debug|x86.Build.0 = Debug|x86
+		{1A1A8F41-60ED-4E4A-9EFF-3B20E00DBD4B}.Release|x86.ActiveCfg = Release|x86
+		{1A1A8F41-60ED-4E4A-9EFF-3B20E00DBD4B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
