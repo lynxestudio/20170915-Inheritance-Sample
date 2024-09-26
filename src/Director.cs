@@ -6,6 +6,8 @@ using System.IO;
 
 
 public class Director : Manager {
+	private bool carAllowance;
+
 
 	public Director(){
 
@@ -45,6 +47,10 @@ public class Director : Manager {
 		set{
 			salary = value;
 		}
+	}
+
+	public void IncreaseAllowance(){
+
 	}
 
 }//end Director

@@ -51,4 +51,13 @@ public class Manager : Employee {
 		}
 	}
 
+	public override DateTime BirthDate{
+		get{
+			return birthDate;
+		}
+		set{
+			birthDate = value;
+		}
+	}
+
 }//end Manager
