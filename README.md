@@ -8,9 +8,7 @@
       </p>
       <div><b>Fig 1. Shows the UML class diagrams that model the Employee and Manager classes.</b></div><br>
       <div>
-<a href="http://corneey.com/q6QAg9" target="_blank">
-<IMG src="picture_library/OOP/fig1.png">
-</a>
+<IMG src="images/fig1.png">
 </div>
 <br>
       <p align="justify">
@@ -23,7 +21,7 @@
       </p>
       <div><b>Fig 2. Class diagram using Inheritance.</b></div><br>
       <div>
-<IMG src="picture_library/OOP/fig2.png">
+<IMG src="images/fig2.png">
 </div>
       <h3>Single Inheritance</h3>
       <p align="justify">The C# programming language permits a class to extend one other class only. This restriction is called single inheritance. With single inheritance, a class is derived from one base class. C# does not support multiple inheritance.</p>
@@ -35,7 +33,7 @@
       </p>
       <div><b>Fig 3. An example Inheritance tree.</b></div><br>
       <div>
-<IMG src="picture_library/OOP/fig3.png">
+<IMG src="images/fig3.png">
 </div><br>
       <p align="justify">
         The <i>Employee</i> class contains three attributes (Name, Salary, and BirthDate), as well as one method (GetDetails). The <i>Manager</i> class inherits all of these members and specifies an additional attribute, department, as well as the <i>GetDetails</i> method. The <i>Director</i> class inherits all of the members of <i>Employee</i> and <i>Manager</i> and specifies a CarAllowance attribute and a new method, IncreaseAllowance.
